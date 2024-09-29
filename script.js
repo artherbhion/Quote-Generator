@@ -7,8 +7,10 @@ function displayRandomQuote() {
         { text: "Don't lose your head saving one minute.", author: "NLC " },
         { text: "Every pot has a lid.", author: "Sarah Mlynowski " },
         { text: "The only real mistake is that from which you learn nothing.", author: "Henry Ford" },
-        { text: "Time has the power to make a black coal into a shiny diamond.", author: "Arther Bhion C" }
-        
+        { text: "Time has the power to make a black coal into a shiny diamond.", author: "Arther Bhion C" },
+        { text: "In the middle of every difficulty lies opportunity.", author: "Albert Einsten" },
+        { text: "Do or do not, there is no try.", author: "Yoda" }
+
     ];
     
 
