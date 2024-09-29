@@ -1,12 +1,16 @@
 function displayRandomQuote() {
     const quotes = [
-        { text: "The best way to predict the future is to invent it.", author: "Alan Kay" },
-        { text: "Do or do not, there is no try.", author: "Yoda" },
-        { text: "Success is not the key to happiness. Happiness is the key to success.", author: "Albert Schweitzer" },
-        { text: "Your time is limited, don’t waste it living someone else’s life.", author: "Steve Jobs" },
-        { text: "In the middle of every difficulty lies opportunity.", author: "Albert Einstein" },
-        { text: "It always seems impossible until it’s done.", author: "Nelson Mandela" }
+        { text: "I don't want countless memories, I just want one good memory.", author: "Arther Bhion C" },
+        { text: "Follow your heart,it is the only thing which is honest with you.", author: "Arther Bhion C" },
+        { text: "Not every stone becomes a capstone.", author: "Arther Bhion C" },
+        { text: "Don't expect life to be fair.", author: "Jhon.F.Kenedy" },
+        { text: "Don't lose your head saving one minute.", author: "NLC " },
+        { text: "Every pot has a lid.", author: "Sarah Mlynowski " },
+        { text: "The only real mistake is that from which you learn nothing.", author: "Henry Ford" },
+        { text: "Time has the power to make a black coal into a shiny diamond.", author: "Arther Bhion C" }
+        
     ];
+    
 
     const randomIndex = Math.floor(Math.random() * quotes.length);
     const selectedQuote = quotes[randomIndex];
