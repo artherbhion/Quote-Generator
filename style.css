@@ -64,6 +64,7 @@ body {
     position: relative;
     margin-top: 10px;
     display: block;
+    font-weight: bold; 
 }
 
 .box span::after {
