@@ -30,11 +30,12 @@ function displayRandomQuote() {
         { text: "If you want a happy ending, that depends, of course, on where you stop your story.", author: "Orson Welles" },
         { text: "The best time to plant a tree was 20 years ago. The second best time is now..", author: "Chinese proverb" },
         { text: "If only we started younger then we would have been so much better, If we knew back then what we knew now Things would change... ", author: "Iroh" },
-        { text: "Today is the Youngest you will ener be again and you still have enough time all you wanted to become.", author: "Chinese proverb" },
+        { text: "Today is the Youngest you will ever be again and you still have enough time all you wanted to become.", author: "Chinese proverb" },
     ];
     
 
     const randomIndex = Math.floor(Math.random() * quotes.length);
+    console.log(randomIndex);
     const selectedQuote = quotes[randomIndex];
     document.getElementById("quote").innerText = selectedQuote.text;
     document.getElementById("author").innerText = selectedQuote.author;
